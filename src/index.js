@@ -20,7 +20,7 @@ ReactDOM.render(
 //   "job" : "qwe"
 // }).then(res => res.data));
 
-const asd = (axios.post("https://reqres.in/api/register", {
+const asd = (axios.post("https://reqres.in/api/users", {
   "name" : "asd",
   "job" : "qwe"
 }).then(res => res.data));
